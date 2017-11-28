@@ -1,0 +1,6 @@
+jobs:
+  test:
+    requires: [~pr, ~commit]
+    steps:
+      - echo: echo dummy
+
