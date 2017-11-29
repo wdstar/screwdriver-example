@@ -1,6 +1,7 @@
 jobs:
   test:
     requires: [~pr, ~commit]
+    image: node:6
     steps:
       - echo: echo dummy
 
