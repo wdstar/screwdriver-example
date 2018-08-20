@@ -1,7 +1,7 @@
 jobs:
   test:
     requires: [~pr, ~commit]
-    image: node:6
+    image: node:8
     steps:
+      - ls: ls -la /opt/sd
       - echo: echo dummy
-
